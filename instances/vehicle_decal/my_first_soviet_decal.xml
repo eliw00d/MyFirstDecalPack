@@ -1,0 +1,23 @@
+<instance description="test instance" template="vehicle_decal">
+	<uniqueid name="pbgid" value="3" />
+	<group name="vehicle_decal_bag">
+		<icon name="icon" value="ModIcons_bfd13eaa9eb7434b97758250ba7a36e5_aef_icon" />
+		<template_reference name="server_item" value="server_item">
+			<uniqueid name="server_id" value="3" />
+			<list name="search_tags">
+			</list>
+			<enum name="rarity" value="event" />
+			<list name="races">
+				<instance_reference name="race" value="racebps\soviet" />
+			</list>
+			<bool name="is_in_default_bundle" value="False" />
+			<list name="default_metadata">
+			</list>
+			<instance_reference name="inventory_item_category" value="" />
+		</template_reference>
+		<instance_reference name="store_item" value="" />
+		<locstring name="description" value="0" />
+		<locstring name="name" value="0" />
+		<string name="decal_name" value="DATA:\art\armies\soviet\badges\bfd13eaa9eb7434b97758250ba7a36e5\default_dif" />
+	</group>
+</instance>
